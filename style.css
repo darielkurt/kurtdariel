@@ -50,8 +50,9 @@ body{
 }
 
 .scroll{
-    background-color: aquamarine;
+    background-color: #011627;
     height: 500px;
+    color: #FDFFFC;
     font-size: 5rem;
     padding: 5%;
 }
