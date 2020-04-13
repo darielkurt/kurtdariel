@@ -1,13 +1,14 @@
-@import "sanfrancisco-font.css";
+@import "jetbrains-mono.css";
 
 html, body {
     height: 100%;
     margin: 0;
     padding: 0;
+    font-family: "JetBrains Mono";
   }
 
 body{
-
+  font-weight: 500;
 }
 
 .flexbox-container{
@@ -15,20 +16,49 @@ body{
     min-height: 100%;
 }
 
-.landing-text{
-    font-family: "SF Mono";
-    font-weight: 500;
-    font-size: 3rem;
+.landing-page{
+  max-width: 1000px;
+    display: flex;
+    -webkit-box-pack: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    flex-direction: column;
+    align-items: flex-start;
+    min-height: 100vh;
+    margin: 0px auto;
+    padding: 20px 0px;
+}
+
+.landing-text-1{
+  font-size: 2rem;
+}
+
+.landing-text-2{
+  margin-top: -0.5rem;
+  padding-left: 4.7rem;
+  font-size: 5rem;
+  color: #011627;
+}
+
+.landing-text-3{
+  margin-top: 0.5rem;
+}
+
+.kurt-desc{
+  font-size: 1.5rem;
+  margin-top: -10px;
 }
 
 .scroll{
     background-color: aquamarine;
     height: 500px;
+    font-size: 5rem;
+    padding: 5%;
 }
 
 ::selection {
-    background: #ebeb34; /* WebKit/Blink Browsers */
+    background: rgb(9, 255, 230); /* WebKit/Blink Browsers */
   }
   ::-moz-selection {
-    background: #ebeb34; /* Gecko Browsers */
+    background: rgb(9, 255, 230); /* Gecko Browsers */
   }
