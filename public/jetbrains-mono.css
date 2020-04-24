@@ -24,7 +24,7 @@
          url('fonts/JetBrainsMono-Medium.woff2') format('woff2'),
          url('fonts/JetBrainsMono-Medium.woff') format('woff'),
          url('fonts/JetBrainsMono-Medium.ttf') format('truetype');
-    font-weight: 500;
+    font-weight: medium;
     font-style: normal;
   }
   
@@ -34,7 +34,7 @@
          url('fonts/JetBrainsMono-Medium-Italic.woff2') format('woff2'),
          url('fonts/JetBrainsMono-Medium-Italic.woff') format('woff'),
          url('fonts/JetBrainsMono-Medium-Italic.ttf') format('truetype');
-    font-weight: 500;
+    font-weight: medium;
     font-style: italic;
   }
 

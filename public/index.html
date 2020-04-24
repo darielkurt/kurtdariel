@@ -14,7 +14,7 @@
     <meta name="theme-color" content="#e9e9e9">
     
     <link rel="stylesheet" href="style.css" type="text/css">
-    <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://tilde.team/~ben/fonts/jetbrains-mono/font.css">
     <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
     <script src="https://cdn.jsdelivr.net/gh/cferdinandi/smooth-scroll/dist/smooth-scroll.polyfills.min.js"></script>
 </head>
@@ -43,12 +43,12 @@
 <!-- HEADER -->
 
     <header>
-            <a class="active" href="#" id="logo">logo</a>
+            <a class="btn home active" href="#" id="logo">kd</a>
             <nav id="header-nav">
                 <ul>
-                    <li><a href="#about">about</a></li>
-                    <li><a href="#projects">projects</a></li>
-                    <li><a href="#contact">contact</a></li>
+                    <li><a href="#about-anchor" class="btn about">about</a></li>
+                    <li><a href="#projects-anchor" class="btn projects">projects</a></li>
+                    <li><a href="#contact-anchor" class="btn contact">contact</a></li>
                 </ul>
             </nav>
     </header>
@@ -65,11 +65,152 @@
             about to graduate from polytechnic university of the philippines<br>
             and currently training to be an exceptional full stack developer<br>
         </p>
-        <button>SAY HELLO!</button>
+        <button class="say-hello">SAY HELLO!</button>
     </section>
+
+<!-- ABOUT     -->
 
     <section id="about">
+        <div class="about-header">
+            <a class="about-anchor" id="about-anchor"></a>
+            <h1>about me</h1>
+            <span class="line"></span>
+        </div>
+
+        <div class="about-body">
+            <img src="assets/me.jpg" class="my-picture">
+            <p class="about-desc">Lorem ipsum dolor sit amet,<br>
+                consectetur adipiscing elit<br>
+                Ut enim ad minim veniam, quis nostrud<br> 
+                exercitation ullamco laboris nisi ut aliquip ex<br> 
+                ea commodo consequat. Duis aute irure dolor<br>
+                 in reprehenderit in voluptate velit esse cillum<br> 
+                dolore eu fugiat nulla pariatur.<br><br>
+                Sed ut perspiciatis unde omnis iste natus error<br> 
+                sit voluptatem accusantium doloremque laudantium,<br> 
+                totam rem aperiam, eaque ipsa quae ab illo<br> 
+                inventore veritatis et quasi architecto beatae<br> 
+                vitae dicta sunt explicabo.</p>
+                        <!-- <iframe src="https://open.spotify.com/embed/track/3FtYbEfBqAlGO46NUDQSAt" 
+                        width="300" height="80" frameborder="0" allowtransparency="true" allow="encrypted-media">
+                        </iframe> -->
+        </div>
 
     </section>
+
+<!-- PROJECTS-->
+
+    <section id="projects">
+        <div class="projects-header">
+            <a class="projects-anchor" id="projects-anchor"></a>
+            <span class="line"></span>
+            <h1>projects that i've worked on</h1>
+            <span class="line"></span>  
+        </div>
+
+<!-- KURTDARIEL.COM -->
+        <div class="projects-body-kurtdariel">
+            <div class="projects-name-kurtdariel">
+                <h1>kurtdariel.com</h1>
+                <div class="tools-kurtdariel">
+                    <h2>HTML<br>
+                        CSS</h2>
+                    <h2>JavaScript<br>UI/UX</h2>
+                    <div class="case-studyXgithub-repo-kurtdariel">
+                    <a href="#">Case Study ></a>
+                    <a href="#">Github Repo ></a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="projects-desc-kurtdariel">
+                <p>Lorem ipsum dolor sit amet,<br>
+                    consectetur adipiscing elit<br>
+                    Ut enim ad minim veniam, quis<br> 
+                    nostrud exercitation ullamco<br> 
+                    laboris nisi ut aliquip ex<br> 
+                    ea commodo consequat.<br><br>
+                     
+                    Duis aute irure dolor<br>
+                    in reprehenderit in voluptate<br> 
+                    velit esse cillum dolore eu<br> 
+                    fugiat nulla pariatur.</p>
+                <div class="img-container-kurtdariel">
+                        <img src="assets/spot-it_img.png">
+                </div>
+            </div>
+        </div>    
+
+<!-- SPOT-IT: CEA -->
+        <div class="projects-body-spotit">
+            <div class="projects-name-spotit">
+                <h1>Spot it: CEA</h1>
+                <div class="tools-spotit">
+                    <h2>Android Studio<br>
+                        Java</h2>
+                    <h2>User Interface<br>User Experience<br></h2>
+                    <div class="case-studyXgithub-repo-spotit">
+                    <a href="#">Case Study ></a>
+                    <a href="#">Github Repo ></a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="projects-desc-spotit">
+                <p>Lorem ipsum dolor sit amet,<br>
+                    consectetur adipiscing elit<br>
+                    Ut enim ad minim veniam, quis<br> 
+                    nostrud exercitation ullamco<br> 
+                    laboris nisi ut aliquip ex<br> 
+                    ea commodo consequat.<br><br>
+                     
+                    Duis aute irure dolor<br>
+                    in reprehenderit in voluptate<br> 
+                    velit esse cillum dolore eu<br> 
+                    fugiat nulla pariatur.</p>
+                <div class="img-container-spotit">
+                        <img src="assets/spot-it_img.png">
+                </div>
+            </div>
+        </div>
+    </section>
+
+<!-- CONTACT -->
+
+    <section id="contact">
+        <div class="contact-header">
+            <a class="contact-anchor" id="contact-anchor"></a>
+            <h1>get in touch with me</h1>
+            <span class="line"></span>
+        </div>
+
+        <div class="contact-body">
+            <div class="contact-left">
+                <img src="assets/chill-kurt-vector.svg">
+            </div>
+            <div class="contact-right">
+                <h4>HMU Y'ALL</h4>
+                <a href="#">kurtdariel@gmail.com</a>
+                <h4>Manila, Philippines</h4>
+                <p>Let's grab a cup of coffee!<br>
+                    ...or not 'coz we're on quarantine</p>
+            </div>
+        </div>
+    </section>
+
+<!-- FOOTER -->
+
+<footer>
+    <span class="line"></span>
+    <p>Designed and Built by Kurt Dariel<br>2020</p>
+    <span class="line"></span>  
+</footer>
+
+<script>  
+var scroll = new SmoothScroll('a[href*="#"]',{
+    speed: 500,
+      speedAsDuration: true
+    });
+    </script>
 
 </body>
