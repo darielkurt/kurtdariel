@@ -40,7 +40,7 @@ body{
 }
 
 p{
-  font-weight: 700;
+  font-weight: 100;
   color: #242424;
 }
 
@@ -117,7 +117,7 @@ header{
     display: flex;
     text-decoration: none;
     font-size: 34px;
-    font-weight: 100;
+    font-weight: 700;
     color: #1b1b1b;
     margin-right: 50px;
 }
@@ -141,6 +141,7 @@ nav ul li{
 }
 
 header a, nav ul li a{
+    font-weight: 700;
     text-decoration: none;
     color: #011627;
     transition: 100ms ease-in-out;
