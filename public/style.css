@@ -81,7 +81,6 @@ button{
     -webkit-box-align: center;
     flex-direction: column;
     align-items: center;
-    background: transparent;
 }
 
 #sticky-contact .gmail-text{
@@ -93,6 +92,38 @@ button{
     letter-spacing: 0.1em;
     writing-mode: vertical-rl;
 }
+
+#sticky-contact-mamba{
+  position: fixed;
+  top: 50%;
+  right: auto;
+  left: 50px;
+  transform: translateY(-50%);
+  z-index: 11;
+  display: flex;
+  -webkit-box-align: center;
+  flex-direction: column;
+  align-items: center;
+}
+
+#sticky-contact-mamba a, 
+#sticky-contact-mamba p{
+  margin: 20px 0;
+  font-weight: 900;
+  font-size: 14px;
+  letter-spacing: 0.1em;
+  writing-mode: vertical-rl;
+  transform: rotate(180deg);
+}
+
+.kobe-8{
+  color: purple;
+}
+
+.kobe-24{
+  color: gold;
+}
+
 
 /* HEADER */
 
