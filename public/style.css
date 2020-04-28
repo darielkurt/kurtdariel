@@ -117,11 +117,11 @@ button{
 }
 
 .kobe-8{
-  color: purple;
+  color: gold;
 }
 
 .kobe-24{
-  color: gold;
+  color: purple;
 }
 
 
@@ -478,18 +478,38 @@ nav ul li a:hover{
   flex: 0.55;
 }
 
+/* #projects .projects-body-spotit .projects-desc-spotit .spotit-desc a{
+
+} */
+
 #projects .projects-body-spotit .projects-desc-spotit .img-container-spotit{
   flex: 1;
-  justify-self: center;
+  display: grid;
+  grid-template: "a b"
+                  "c d";
+  align-items: center;
+}
+
+#projects .projects-body-spotit .projects-desc-spotit .img-container-spotit .spotit-img{
   display: flex;
+  justify-content: flex-end;
   align-items: center;
   flex-direction: column;
 }
 
+#projects .projects-body-spotit .projects-desc-spotit .img-container-spotit h3{
+  font-size: 20px;
+  font-weight: 900;
+}
+
 #projects .projects-body-spotit .projects-desc-spotit .img-container-spotit img{
-  max-width: 80%;
-  max-height: 80%;
-  padding-bottom: 40px;
+  max-width: 50%;
+  height: auto;
+  margin: 20px;
+  border-radius: 5px;
+  -webkit-box-shadow: -5px 5px 6px 0px rgba(0,0,0,0.15);
+  -moz-box-shadow: -5px 5px 6px 0px rgba(0,0,0,0.15);
+  box-shadow: -5px 5px 6px 0px rgba(0,0,0,0.15);
 }
 
 /* CONTACT */
