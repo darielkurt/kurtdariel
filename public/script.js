@@ -1,24 +1,9 @@
-// Get the container element
-var btnContainer = document.getElementsByTagName("header");
+var scroll = new SmoothScroll('a[href*="#"]',{
+    speed: 500,
+      speedAsDuration: true
+    });
 
-// Get all buttons with class="btn" inside the container
-var btns = btnContainer.getElementsByClassName("btn");
-
-// Loop through the buttons and add the active class to the current/clicked button
-for (var i = 0; i < btns.length; i++) {
-  btns[i].addEventListener("click", function() {
-    var current = document.getElementsByClassName("active");
-    current[0].className = current[0].className.replace(" active", "");
-    this.className += " active";
-  });
-}
-
-  var scroll = new SmoothScroll('a[href*="#"]',{
-  speed: 1000,
-    speedAsDuration: true
-  });
-
-  var cursor = {
+    var cursor = {
     delay: 8,
     _x: 0,
     _y: 0,
@@ -145,3 +130,11 @@ for (var i = 0; i < btns.length; i++) {
 }
 
 cursor.init();
+
+// const hamburger = document.querySelector('.hamburger');
+// const navLinks = document.querySelector('.nav-links');
+// const links = document.querySelector('.nav-links li');
+
+// hamburger.addEventListener('click',()=>{
+//     navLinks.classList.toggle("open");
+// });
