@@ -75,7 +75,7 @@ body {
 #sticky-contact-mamba {
   position: fixed;
   top: 50%;
-  left: 44px;
+  left: 36px;
   right: auto;
   transform: translateY(-50%);
   z-index: 11;
@@ -489,7 +489,6 @@ nav ul li a:hover {
   flex: 1;
   display: grid;
   justify-content: space-around;
-  grid-template-areas: "a b";
 }
 
 #projects .projects-body-spotit .projects-name-spotit .tools-spotit h2 {
@@ -513,14 +512,14 @@ nav ul li a:hover {
 }
 
 #projects .projects-body-spotit .projects-desc-spotit {
-  margin: 65px 0px 0;
+  margin: 65px 0 0;
   display: flex;
   flex-direction: row;
   align-items: center;
 }
 
 #projects .projects-body-spotit .projects-desc-spotit .spotit-desc {
-  flex: 0.55;
+  flex: 0.5;
 }
 
 /* #projects .projects-body-spotit .projects-desc-spotit .spotit-desc a{
@@ -531,8 +530,8 @@ nav ul li a:hover {
   flex: 1;
   display: grid;
   grid-template:
-    "a b"
-    "c d";
+    "b d"
+    "c a";
   align-items: center;
 }
 
@@ -542,7 +541,6 @@ nav ul li a:hover {
   .img-container-spotit
   .spotit-img {
   display: flex;
-  justify-content: flex-end;
   align-items: center;
   flex-direction: column;
 }
