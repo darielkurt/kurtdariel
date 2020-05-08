@@ -41,12 +41,6 @@ p {
   color: #242424;
 }
 
-button {
-  outline: none;
-  border: none;
-  cursor: pointer;
-}
-
 body {
   margin-left: 100px;
   margin-right: 100px;
@@ -248,12 +242,19 @@ nav ul li a:hover {
 }
 
 .resume {
+  display: inline-block;
+  margin-top: 30px;
+  text-align: center;
+  text-decoration: none;
   background: #4b00ff;
   width: 250px;
   font-size: 16px;
-  padding: 16px 50px;
-  color: #fdfffc;
+  padding: 16px 0;
+  color: #fdfffc; 
   transition: 100ms ease-in-out;
+  outline: none;
+  border: none;
+  cursor: pointer;
 }
 
 .resume:hover,
