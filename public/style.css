@@ -520,9 +520,9 @@ nav ul li a:hover {
 
 #projects .projects-body-spotit .projects-desc-spotit .spotit-desc {
   flex: 0.5;
-  background: #f1eefc;
+  /* background: #f1eefc;
   padding: 30px;
-  border-radius: 10px;
+  border-radius: 10px; */
 }
 
 /* #projects .projects-body-spotit .projects-desc-spotit .spotit-desc a{
