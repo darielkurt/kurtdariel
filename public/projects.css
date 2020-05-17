@@ -1,0 +1,220 @@
+#projects {
+    margin-top: 100px;
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+    padding-bottom: 50px;
+  }
+  
+  .projects-anchor {
+    display: block;
+    position: relative;
+    top: -150px;
+    visibility: hidden;
+  }
+  
+  .projects-header {
+    display: flex;
+    width: 100%;
+    align-items: center;
+    z-index: 2;
+  }
+  
+  #projects .projects-header h1 {
+    font-size: 50px;
+    padding: 0 50px;
+    text-shadow: 0px 8px 0px rgba(0, 0, 0, 0.1), -8px 0px 0px rgba(0, 0, 0, 0.1);
+  }
+  
+  #projects .projects-header span {
+    flex: 1;
+    width: 100%;
+    height: 2px;
+    background: #01162728;
+  }
+  
+  /* KURTDARIEL.COM */
+  
+  #projects .projects-body-kurtdariel {
+    margin-top: 140px;
+  }
+  
+  #projects .projects-body-kurtdariel .projects-name-kurtdariel {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    height: 110px;
+    background-repeat: no-repeat;
+    max-width: 100%;
+    background-size: 100%;
+    background-image: url("assets/kurtdarielcom-text.svg");
+  }
+  
+  #projects .projects-body-kurtdariel .projects-name-kurtdariel h1 {
+    flex: 1;
+    font-family: Roboto;
+    font-size: 90px;
+    font-weight: 900;
+    color: #fdfffc;
+    -webkit-text-stroke: 2px #4b00ff;
+  }
+  
+  #projects
+    .projects-body-kurtdariel
+    .projects-name-kurtdariel
+    .tools-kurtdariel {
+    flex: 1;
+    display: grid;
+    justify-content: space-around;
+    grid-template-areas: "a b";
+  }
+  
+  #projects
+    .projects-body-kurtdariel
+    .projects-name-kurtdariel
+    .tools-kurtdariel
+    h2 {
+    font-size: 18px;
+  }
+  
+  #projects .projects-body-kurtdariel .projects-name-kurtdariel h2 {
+    font-family: "JetBrains Mono";
+    font-size: 20px;
+    font-weight: 700;
+    color: #011627;
+  }
+  
+  #projects .projects-body-kurtdariel .projects-name-kurtdariel a {
+    font-size: 14px;
+    font-weight: 700;
+    color: #011627;
+    margin-right: 50px;
+  }
+  
+  #projects .projects-body-kurtdariel .projects-desc-kurtdariel {
+    margin: 65px 0px 0;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+  }
+  
+  #projects .projects-body-kurtdariel .projects-desc-kurtdariel p {
+    flex: 0.55;
+  }
+  
+  #projects
+    .projects-body-kurtdariel
+    .projects-desc-kurtdariel
+    .img-container-kurtdariel {
+    flex: 1;
+    justify-self: center;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    -webkit-box-shadow: -5px 5px 20px 0px rgba(0, 0, 0, 0.15);
+    -moz-box-shadow: -5px 5px 20px 0px rgba(0, 0, 0, 0.15);
+    box-shadow: -5px 5px 20px 0px rgba(0, 0, 0, 0.15);
+    margin-left: 30px;
+  }
+  
+  /* SPOT-IT: CEA */
+  
+  #projects .projects-body-spotit {
+    margin-top: 140px;
+  }
+  
+  #projects .projects-body-spotit .projects-name-spotit {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    background-repeat: no-repeat;
+    height: 120px;
+    background-image: url("assets/SPOT-IT_CEA.svg");
+  }
+  
+  #projects .projects-body-spotit .projects-name-spotit h1 {
+    flex: 1;
+    font-family: Roboto;
+    font-size: 90px;
+    font-weight: 900;
+    color: #fdfffc;
+    -webkit-text-stroke: 2px #4b00ff;
+  }
+  
+  #projects .projects-body-spotit .projects-name-spotit .tools-spotit {
+    flex: 1;
+    display: grid;
+    justify-content: space-around;
+  }
+  
+  #projects .projects-body-spotit .projects-name-spotit .tools-spotit h2 {
+    font-size: 18px;
+  }
+  
+  #projects .projects-body-spotit .projects-name-spotit h2 {
+    font-family: "JetBrains Mono";
+    font-size: 20px;
+    font-weight: 700;
+    color: #011627;
+    margin-right: 50px;
+  }
+  
+  #projects .projects-body-spotit .projects-name-spotit a {
+    font-family: "JetBrains Mono";
+    font-size: 14px;
+    font-weight: 700;
+    color: #011627;
+    margin-right: 50px;
+  }
+  
+  #projects .projects-body-spotit .projects-desc-spotit {
+    margin: 65px 0 0;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+  }
+  
+  #projects .projects-body-spotit .projects-desc-spotit .spotit-desc {
+    flex: 0.5;
+    /* background: #f1eefc;
+    padding: 30px;
+    border-radius: 10px; */
+  }
+  
+  #projects .projects-body-spotit .projects-desc-spotit .img-container-spotit {
+    flex: 1;
+    display: grid;
+    grid-template:
+      "b d"
+      "c a";
+    align-items: center;
+  }
+  
+  #projects
+    .projects-body-spotit
+    .projects-desc-spotit
+    .img-container-spotit
+    .spotit-img {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+  }
+  
+  #projects .projects-body-spotit .projects-desc-spotit .img-container-spotit p {
+    font-size: 20px;
+    font-weight: 700;
+  }
+  
+  #projects
+    .projects-body-spotit
+    .projects-desc-spotit
+    .img-container-spotit
+    img {
+    max-width: 50%;
+    height: auto;
+    margin: 20px;
+    border-radius: 5px;
+    -webkit-box-shadow: -5px 5px 6px 0px rgba(0, 0, 0, 0.15);
+    -moz-box-shadow: -5px 5px 6px 0px rgba(0, 0, 0, 0.15);
+    box-shadow: -5px 5px 6px 0px rgba(0, 0, 0, 0.15);
+  }

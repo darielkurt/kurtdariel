@@ -1,0 +1,55 @@
+#home {
+    height: 100vh;
+    margin-top: 100px;
+    padding-top: 50px;
+    display: flex;
+    flex-direction: column;
+    margin-left: 50px;
+  }
+  
+  #home h1 {
+    margin-top: 65px;
+    text-shadow: 0px 16px 0px rgba(0, 0, 0, 0.1), -16px 0px 0px rgba(0, 0, 0, 0.1);
+  }
+  
+  #home h3 {
+    margin-top: 60px;
+    font-weight: 200;
+  }
+  
+  #home .intro-text {
+    margin-top: 30px;
+  }
+  
+  #home p {
+    margin-top: 20px;
+    width: 50%;
+  }
+  
+  #home button {
+    margin-top: 35px;
+  }
+  
+  .resume {
+    display: inline-block;
+    margin-top: 30px;
+    text-align: center;
+    text-decoration: none;
+    background: #4b00ff;
+    width: 250px;
+    font-size: 16px;
+    padding: 16px 0;
+    color: #fdfffc; 
+    transition: 100ms ease-in-out;
+    outline: none;
+    border: none;
+    cursor: pointer;
+  }
+  
+  .resume:hover,
+  .resume:active {
+    background: #fdfffc;
+    color: #4b00ff;
+    outline: 1px solid #4b00ff;
+  }
+  
